@@ -7,7 +7,7 @@ import Add from "./pages/Add";
 import List from "./pages/List";
 import Orders from "./pages/Orders";
 import Login from "./components/Login";
-import Toast from "./components/toast";
+import Toast from "./components/Toast";
 
 
 export const backendUrl = "https://doddlify-backend.onrender.com";
