@@ -10,7 +10,7 @@ import Login from "./components/Login";
 import Toast from "./components/toast";
 
 
-export const backendUrl = import.meta.env.VITE_BACKEND_URL;
+export const backendUrl = "https://doddlify-backend.onrender.com";
 export const currency = "₹";
 const App = () => {
   const [token, setToken] = useState(
