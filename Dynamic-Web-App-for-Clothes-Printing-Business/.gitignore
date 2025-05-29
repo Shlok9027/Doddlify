@@ -1,5 +1,6 @@
+# .gitignore
 node_modules/
 .env
-backend/.env
-frontend/.env
-admin/.env
+dist/
+build/
+.DS_Store
