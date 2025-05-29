@@ -1,5 +1,5 @@
 
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
 import React, { useEffect, useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -26,7 +26,7 @@ const App = () => {
         <Login setToken={setToken} />
       ) : (
         <>
-          <Navbar setToken={setToken} />
+          <NavBar setToken={setToken} />
           <hr />
 
           <div className="flex w-full">
